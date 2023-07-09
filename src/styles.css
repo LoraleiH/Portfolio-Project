@@ -3,6 +3,8 @@
     --subhead-color: #464646;
     --heading-font: 'Playfair Display', serif;
     --other-font: 'Open Sans', sans-serif;
+    --background-color: #E5E1E1;
+
 }
 
 
@@ -22,7 +24,7 @@ body {
 
     padding: 90px;
     text-align: center;
-    background-color: #E5E1E1;
+    background-color: var(--background-color);
 }
 
 .hero h1 {
@@ -47,5 +49,45 @@ color: var(--subhead-color);
     padding: 15px 45px;
     border: none;
     background-color: var(--subhead-color);
+
+}
+
+.container {
+
+    margin-top: 50px;
+
+}
+
+.home-text {
+
+    background: #F6F6F6;
+        padding: 20px;
+    border-radius: 4px;
+}
+
+.img-home {    
+    border-radius: 4px;
+}
+
+
+.home-button {
+
+    border: 1px solid var(--subhead-color);
+    border-radius: 4px;
+    padding: 5px 20px;
+    background: var(--background-color);
+   
+}
+
+@media(max-width: 767px) {
+
+    img {
+        display:none;
+    }
+
+    body {
+        text-align: center;
+    }
+
 
 }
