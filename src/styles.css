@@ -4,7 +4,13 @@
     --heading-font: 'Playfair Display', serif;
     --other-font: 'Open Sans', sans-serif;
     --background-color: #E5E1E1;
+    --lighter-background: #F6F6F6;
 
+}
+
+a {
+    text-decoration: none;
+   color: black;
 }
 
 
@@ -60,12 +66,16 @@ color: var(--subhead-color);
 
 .home-text {
 
-    background: #F6F6F6;
+    background: var(--lighter-background);
         padding: 20px;
     border-radius: 4px;
 }
 
 .img-home {    
+    border-radius: 4px;
+}
+
+.img-about {    
     border-radius: 4px;
 }
 
@@ -79,9 +89,38 @@ color: var(--subhead-color);
    
 }
 
+.about-container {
+
+    margin-top: 100px;
+    background-color: var(--lighter-background);
+    border-radius: 4px;
+   
+}
+
+.about-col {
+    padding: 0px;
+}
+
+.about-text {
+    margin: 10px;
+}
+
+.about-button {
+
+    padding: 15px 45px;
+    border: none;
+    background-color: var(--subhead-color);
+    color: white;
+
+}
+
+.center {
+    text-align: center;
+}
+
 @media(max-width: 767px) {
 
-    img {
+    img.img-home {
         display:none;
     }
 
