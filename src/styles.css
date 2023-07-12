@@ -46,6 +46,26 @@ nav h1 {
 
 }
 
+footer {
+    background-color: var(--background-color);
+ 
+}
+
+footer i {
+    font-size: 12px;
+    text-align: center;
+    margin: 0 10px 20px 10px;
+    background-color: var(--lighter-background);
+    padding: 15px;
+    border-radius: 50px;
+}
+
+
+.copyright {
+padding: 20px 0 5px 0;
+font-family: var(--other-font);
+font-size: 14px
+}
 
 .hero {
 
@@ -127,7 +147,7 @@ color: var(--subhead-color);
 .page-header {
 
     margin-top: 100px;
-    background-color: var(--lighter-background);
+    background-color: var(--background-color);
     border-radius: 4px;
    
 }
