@@ -25,6 +25,10 @@ body {
     font-family: var(--other-font);
 }
 
+i {
+    font-size: 30px;
+    color: var(--subhead-color);
+}
 
 .hero {
 
