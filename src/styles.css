@@ -48,6 +48,7 @@ nav h1 {
 
 footer {
     background-color: var(--background-color);
+    margin-top: 30px;
  
 }
 
@@ -101,7 +102,7 @@ color: var(--subhead-color);
 
 .container {
 
-    margin-top: 50px;
+    margin-top: 20px;
 
 }
 
@@ -126,6 +127,14 @@ color: var(--subhead-color);
     border-radius: 4px;
 }
 
+.about-block {
+
+    background: var(--lighter-background);
+        padding: 20px;
+    border-radius: 4px;
+}
+
+
 .img-home {    
     border-radius: 4px;
 }
@@ -146,7 +155,7 @@ color: var(--subhead-color);
 
 .page-header {
 
-    margin-top: 100px;
+    margin-top: 30px;
     background-color: var(--background-color);
     border-radius: 4px;
    
@@ -156,9 +165,6 @@ color: var(--subhead-color);
     padding: 0px;
 }
 
-.about-text {
-    margin: 10px;
-}
 
 .about-button {
 
